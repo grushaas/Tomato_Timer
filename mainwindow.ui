@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #DC4747;
+border-radius: 0px 0px 7px 7px;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Todo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Users/Grush/Downloads/Todo.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Menu">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>30</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Users/Grush/Downloads/Меню.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Timer">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>109</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #EFEFEF;</string>
+    </property>
+    <property name="text">
+     <string>00:00</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>154</x>
+      <y>162</y>
+      <width>130</width>
+      <height>1</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #000;
+color: #000000;</string>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IconTime">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>172</y>
+      <width>23</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Users/Grush/Downloads/Часики.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IconCoffee">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>200</y>
+      <width>23</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Users/Grush/Downloads/Кофе.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IconTomato">
+    <property name="geometry">
+     <rect>
+      <x>124</x>
+      <y>227</y>
+      <width>23</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Users/Grush/Downloads/Помидорка.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IconTimeAndTomato">
+    <property name="geometry">
+     <rect>
+      <x>124</x>
+      <y>254</y>
+      <width>23</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Users/Grush/Downloads/Таймер-помидор.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TTime">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>175</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>00 мин</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TCoffee">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>205</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>00 мин</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TTimeAndTomato">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>257</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>00 мин</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TTomato">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>231</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>00</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonGo">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>180</y>
+      <width>109</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #5FC2C2;
+border-radius: 13px;
+color: #DC4747;
+</string>
+    </property>
+    <property name="text">
+     <string>Запуск</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonStop">
+    <property name="geometry">
+     <rect>
+      <x>225</x>
+      <y>236</y>
+      <width>109</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #5FC2C2;
+border-radius: 13px;
+color: #DC4747;
+</string>
+    </property>
+    <property name="text">
+     <string>Пауза/сбросить</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
